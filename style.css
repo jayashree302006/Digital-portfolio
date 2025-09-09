@@ -1,0 +1,122 @@
+      h1{text-align:center;
+        background-color: rgb(167, 185, 236);height:700%;padding:50px;}
+        h2{text-align:center; background-color:rgb(254, 253, 252) bolder;}
+        p{text-align: center;font-family:Georgia, 'Times New Roman', Times, serif oblique;font-weight: normal; }
+        h3{text-align:center;font-style: normal;font-weight: bolder;}
+        #skills {
+  padding: 30px;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-card {
+  background:rgb(151, 177, 177);
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 50px;
+  font-size: 18px;
+  font-weight:"bold";
+  box-shadow:  rgba(244, 236, 236, 0.1);
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+  background: #d9f3ff;
+}
+.skill-card img {
+  width: 50px;   /* Logo size control */
+  height: 50px;  /* Fixed height */
+  object-fit: contain; /* Keep aspect ratio */
+  margin-bottom: 8px;
+}
+
+
+section {
+  padding: 40px;
+  margin: 20px 0;
+  background: #f4efef;
+  border-radius: 10px;
+}
+#contact {
+  padding: 40px;
+  background: #f4f4f4;
+  text-align: center;
+  border-top: 2px solid #ddd;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+#contact a {
+  color: #1E3A8A; /* navy blue (matches grey theme) */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: #14B8A6; /* teal hover effect */
+}
+#contact {
+  padding: 40px;
+  background:rgb(167, 185, 236) ;   /* dark grey background */
+  color: #181818;       /* white text */
+  text-align: center;
+  border-top: 2px solid #222;
+  border-radius: 10px;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #111111;
+}
+
+#contact p {
+  font-size: 18px;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* space between icon and text */
+}
+
+#contact img {
+  width: 24px;
+  height: 24px;
+}
+
+#contact a {
+  color: #131313;  /* teal link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color:#5579e4; ;  /* light blue hover */
+}
+
+
+
+
+
+       
